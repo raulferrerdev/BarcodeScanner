@@ -12,6 +12,7 @@
 		94678E1226B414360036B526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94678E1126B414360036B526 /* Assets.xcassets */; };
 		94678E1526B414360036B526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94678E1426B414360036B526 /* Preview Assets.xcassets */; };
 		94B1479A26B842E1004532C1 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1479926B842E1004532C1 /* ScannerVC.swift */; };
+		94B1479C26B84AC7004532C1 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1479B26B84AC7004532C1 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94678E1426B414360036B526 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94678E1626B414360036B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B1479926B842E1004532C1 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		94B1479B26B84AC7004532C1 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				94678E1626B414360036B526 /* Info.plist */,
 				94678E1326B414360036B526 /* Preview Content */,
 				94B1479926B842E1004532C1 /* ScannerVC.swift */,
+				94B1479B26B84AC7004532C1 /* ScannerView.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94B1479A26B842E1004532C1 /* ScannerVC.swift in Sources */,
+				94B1479C26B84AC7004532C1 /* ScannerView.swift in Sources */,
 				94678E1026B414330036B526 /* BarcodeScannerView.swift in Sources */,
 				94678E0E26B414330036B526 /* BarcodeScannerApp.swift in Sources */,
 			);
